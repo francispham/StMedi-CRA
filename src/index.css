@@ -1,5 +1,99 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  background-color: white;
+  min-height:150vh;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 18px;
+}
+
+section {
+  height: auto;
+}
+
+a {
+  color: #BB972E;
+}
+
+main {
+  padding-top: 6em;
+  display: grid;
+}
+
+.flash-message {
+  padding: 8px;
+  color: darkolivegreen;
+  background-color: palegreen;
+  border-radius: 5px;
+}
+
+.has-error .help-block {
+  color: red;
+}
+
+.ShowPage{
+  border-radius: 5px;
+  border: 1px
+}
+
+.form {
+  border: 1px solid;
+  padding: 25px;
+  border-radius: 5px;
+  border-color: #CFD4DA;
+}
+.grid {
+  display: grid
+}
+
+.color {
+  color: #BB972E;
+}
+
+.color a {
+  color: #BB972E;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.navbar-default{
+  transition:500ms ease;
+  background:transparent;
+  font-weight: bold;
+}
+.navbar-default.scrolled{
+  background: #F7F8F9;
+}
+
+.Footer {
+  background: #F7F8F9;
+  font-weight: bold;
+}
+
+.HomePage {
+  margin-bottom: 0px;
+}
+
+.image {
+  padding: 0px;
+  margin: 0px;
+}
+
+#fade{
+  height: 30vh;
+  background-color: rgba(69, 65, 89,.2);
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+@media only screen and (min-width: 768px) {
+ #information > div > div > div {
+   display: flex;
+   justify-content: center;
+   align-items: center
+ }
 }
