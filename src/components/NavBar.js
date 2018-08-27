@@ -15,6 +15,23 @@ import {
 } from 'reactstrap';
 
 
+
+let nav = document.querySelector('nav');
+let prevScrollpos = window.pageYOffset;
+
+window.onscroll = () => {
+  let currentScrollPos = window.pageYOffset;
+  if (prevScrollpos < currentScrollPos) {
+    document.querySelector("nav").classList.add('scrolled');
+  }
+  if (currentScrollPos === 0) {
+    document.querySelector("nav").classList.remove('scrolled');
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+
+
 class NavBar extends React.Component {
   constructor(props) {
     super(props);
