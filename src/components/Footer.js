@@ -32,10 +32,10 @@ class Footer extends Component {
                 <FontAwesomeIcon icon={['fab', 'google']} pull="right"/>
             </Col>
 
-            <Col className= "middle">
+            <Col className= "middle color">
               <a href = 'mailto:info@stmedispa.com'>
                 <h2>
-                  <FontAwesomeIcon icon='envelope' className="Mail color"/> &nbsp;
+                  <FontAwesomeIcon icon='envelope' className="Mail"/> &nbsp;
                   info@stmedispa.com
                 </h2>
               </a>
