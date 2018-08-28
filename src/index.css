@@ -2,6 +2,8 @@ body {
   background-color: white;
   min-height:150vh;
   font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Open Sans', sans-serif ;
+  font-family: 'Roboto', sans-serif ;
   font-size: 18px;
 }
 
@@ -90,10 +92,14 @@ main {
   align-items: center
 }
 
+#information {
+  text-align: center;
+}
+
 @media only screen and (min-width: 768px) {
  #information > div > div > div {
    display: flex;
    justify-content: center;
-   align-items: center
+   align-items: center;
  }
 }

@@ -51,8 +51,8 @@ class Skincare extends Component {
                     <CardBody>
                       <CardTitle>BODY FX</CardTitle>
                       <CardText>
-                        BodyFX is a new, long lasting, non-invasive solution to
-                        reduce the unsightly appearance of cellulite. BodyFX will
+                        New, long lasting, non-invasive solution to
+                        reduce the unsightly appearance of cellulite,
                         reshape your body to provide a non-surgical alternative to liposuction.
                       </CardText>
                     </CardBody>
@@ -69,10 +69,10 @@ class Skincare extends Component {
                       />
                     </NavLink>
                     <CardBody>
-                      <CardTitle>Forma Plus by Inmode</CardTitle>
+                      <CardTitle>FORMA PLUS</CardTitle>
                       <CardText>
-                        Some quick example text to build on the card
-                        title and make up the bulk of the card's content.
+                        A safe and comfortable non-surgical solution to
+                        refine and reverse skin laxity.
                       </CardText>
                     </CardBody>
                   </Card>
@@ -88,9 +88,10 @@ class Skincare extends Component {
                       />
                     </NavLink>
                     <CardBody>
-                      <CardTitle>Fractora</CardTitle>
+                      <CardTitle>FRACTORA</CardTitle>
                       <CardText>
-                        Bla Bla Bla
+                        Rejuvenate & Restore your skin. Safe, gentle and
+                        effective skin treatment 
                       </CardText>
                     </CardBody>
                   </Card>

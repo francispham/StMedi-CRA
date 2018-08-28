@@ -71,7 +71,7 @@ class Laser extends Component {
                 <div>
                   <FontAwesomeIcon icon="user-clock" /> &nbsp;
                   <strong>Treatment Time</strong>
-                  <p>&nbsp;&nbsp;&nbsp;<small> ~40 minutes</small></p>
+                  <p><small> ~40 minutes</small></p>
                 </div>
               </Col>
               <Col style={{
@@ -80,7 +80,7 @@ class Laser extends Component {
                 <div>
                   <FontAwesomeIcon icon="home" /> &nbsp;
                   <strong>DownTime</strong>
-                  <p>&nbsp;&nbsp;&nbsp;<small>None</small></p>
+                  <p><small>None</small></p>
                 </div>
               </Col>
               <Col style={{
@@ -89,7 +89,7 @@ class Laser extends Component {
                 <div>
                   <FontAwesomeIcon icon="calendar" /> &nbsp;
                   <strong>Sessions Required</strong>
-                  <p>&nbsp;&nbsp;&nbsp;<small>1 or more</small></p>
+                  <p><small>1 or more</small></p>
                 </div>
               </Col>
               <Col style={{
@@ -98,7 +98,7 @@ class Laser extends Component {
               <div>
                 <FontAwesomeIcon icon="meh" /> &nbsp;
                 <strong>Discomfort Level</strong>
-                <p>&nbsp;&nbsp;&nbsp;<small>None</small></p>
+                <p><small>None</small></p>
               </div>
             </Col>
             </Row>
@@ -112,7 +112,7 @@ class Laser extends Component {
                 <h4>FAQ</h4>
               </Col>
               <Col className="middle" sm={12} md={6} style={{ padding:"0px" }}>
-                <h4>Before & After</h4>
+                <h4>BEFORE & AFTER</h4>
               </Col>
             </Row>
             <Row>

@@ -29,6 +29,9 @@ class BodyFX extends Component {
     return (
       <div className="BodyFX middle flex-column" style={{paddingTop:"10em"}}>
         <h4 className="display-4">BODY FX</h4>
+        <h5 className="display-5">
+          NON-INVASIVE BODY CONTOURING & CELLULITE TREATMENT
+        </h5>
         <div className="container-fluid">
           <Container fluid style={{ paddingTop: "2em" }} >
             <Row>
@@ -38,24 +41,22 @@ class BodyFX extends Component {
               </Col>
               <Col sm={12} md={6} style={{ padding:"0px" }}>
                 <p>
-                  Starting with healthy teeth and gums, we can perfect your smile
-                  through our Organic Teeth whitening treatment with zero peroxide.
-                  One of the first things people notice is your smile. A beautiful
-                  smile can brighten your life every day, professionally and socially.
-                  And unlike plastic surgery, cosmetic dentistry isn't a major operation.
-                  Imagine coming in for a single appointment or two and emerging
-                  with the smile you've always wanted...no pain, no time taken away
-                  from your busy life. The results are immediate and dramatic.
+                  Discover a superior solution to improve the
+                  appearance of cellulite, reduce dimpled
+                  skin, loss of elasticity on the abdomen,
+                  love handles, hips, thighs and other
+                  areas that require fat reduction.
                 </p>
+                <p><strong>WHAT IS BODYFX?</strong></p>
                 <p>
-                  There are many ways we can give you a youthful, attractive,
-                  natural looking smile! If you feel that chipped, stained, or
-                  crooked teeth are "hiding" the real you, then smile design might
-                  be something that you would like to consider. You can feel relax
-                  and get excellent service, we know that going to the dentist
-                  can be expensive and scary for some people, so we have include
-                  friendly and attentive stuff to cater to your needs once you step
-                  into.
+                  BodyFX is a new, long lasting, non-invasive
+                  solution to reduce the unsightly appearance
+                  of cellulite. BodyFX will reshape your body
+                  to provide a non-surgical alternative to
+                  liposuction.
+                  BodyFX is the perfect solution to get rid
+                  of your mummy tummy or muffin top,and
+                  improve your general body contour.
                 </p>
                 <br/>
                 <p>Contact us to schedule your appointment today! </p>
@@ -75,7 +76,7 @@ class BodyFX extends Component {
                 <div>
                   <FontAwesomeIcon icon="user-clock" /> &nbsp;
                   <strong>Treatment Time</strong>
-                  <p>&nbsp;&nbsp;&nbsp;<small> ~40 minutes</small></p>
+                  <p><small>???</small></p>
                 </div>
               </Col>
               <Col style={{
@@ -84,7 +85,7 @@ class BodyFX extends Component {
                 <div>
                   <FontAwesomeIcon icon="home" /> &nbsp;
                   <strong>DownTime</strong>
-                  <p>&nbsp;&nbsp;&nbsp;<small>None</small></p>
+                  <p><small>None</small></p>
                 </div>
               </Col>
               <Col style={{
@@ -93,7 +94,7 @@ class BodyFX extends Component {
                 <div>
                   <FontAwesomeIcon icon="calendar" /> &nbsp;
                   <strong>Sessions Required</strong>
-                  <p>&nbsp;&nbsp;&nbsp;<small>1 or more</small></p>
+                  <p><small>8 or more</small></p>
                 </div>
               </Col>
               <Col style={{
@@ -102,7 +103,7 @@ class BodyFX extends Component {
               <div>
                 <FontAwesomeIcon icon="meh" /> &nbsp;
                 <strong>Discomfort Level</strong>
-                <p>&nbsp;&nbsp;&nbsp;<small>None</small></p>
+                <p><small>Fair</small></p>
               </div>
             </Col>
             </Row>
@@ -116,37 +117,111 @@ class BodyFX extends Component {
                 <h4>FAQ</h4>
               </Col>
               <Col className="middle" sm={12} md={6} style={{ padding:"0px" }}>
-                <h4>Before & After</h4>
+                <h4>BEFORE & AFTER</h4>
               </Col>
             </Row>
             <Row>
               <Col>
                 <div>
                   <Button color="light" id="toggler" style={{ marginBottom: '1rem' }}>
-                    Why do I need to have my teeth white?
+                    HOW DOES BODYFX WORK?
                   </Button>
                   <UncontrolledCollapse toggler="#toggler">
                     <Card>
                       <CardBody>
-                        Anim pariatur cliche reprehenderit,
-                        enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                        anim keffiyeh helvetica, craft beer labore wes anderson cred
-                        nesciunt sapiente ea proident.
+                        <p>
+                          BodyFX uses a combination of different
+                          clinically proven modalities including
+                          radio-frequency energy, deep tissue heating,
+                          and suction coupled negative pressure.
+                        </p>
+                        <p>
+                          The radio-frequency energy distributes heat
+                          to the skin and underlying fat, causing the
+                          tissues to heat and contract. The vacuum
+                          and controlled energy pulses then work
+                          synergistically to provide beautiful body
+                          shaping results.
+                        </p>
                       </CardBody>
                     </Card>
                   </UncontrolledCollapse>
                 </div>
                 <div>
                   <Button color="light" id="toggler1" style={{ marginBottom: '1rem' }}>
-                    When do I need to have my teeth white?
+                    HOW SAFE IS THE TREATMENT?
                   </Button>
                   <UncontrolledCollapse toggler="#toggler1">
                     <Card>
                       <CardBody>
-                        Anim pariatur cliche reprehenderit,
-                        enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                        anim keffiyeh helvetica, craft beer labore wes anderson cred
-                        nesciunt sapiente ea proident.
+                        <p>
+                          A series of radio-frequency energy is
+                          delivered by a succession of pulses at 1
+                          million cycles per second. While this may
+                          sound intense, it is very safe. To maximize
+                          comfort, the body’s temperature will be
+                          constantly monitored, with ongoing accurate
+                          feedback of the skin’s temperature. This
+                          thermal monitoring provides the utmost in
+                          temperature control.
+                        </p>
+                      </CardBody>
+                    </Card>
+                  </UncontrolledCollapse>
+                </div>
+                <div>
+                  <Button color="light" id="toggler2" style={{ marginBottom: '1rem' }}>
+                    DOES IT HURT?
+                  </Button>
+                  <UncontrolledCollapse toggler="#toggler2">
+                    <Card>
+                      <CardBody>
+                        <p>
+                          Most users find BodyFX comfortable. During
+                          treatment you can expect a warming of your
+                          skin and gentle pulling sensation as the
+                          radio-frequency and vacuum work to smooth
+                          out unwanted stubborn pockets of fat.
+                        </p>
+                      </CardBody>
+                    </Card>
+                  </UncontrolledCollapse>
+                </div>
+                <div>
+                  <Button color="light" id="toggler3" style={{ marginBottom: '1rem' }}>
+                    HOW MANY SESSIONS ARE REQUIRED?
+                  </Button>
+                  <UncontrolledCollapse toggler="#toggler3">
+                    <Card>
+                      <CardBody>
+                        <p>
+                          It is recommended that weekly sessions are
+                          performed over an eight week period. Gradual
+                          improvements in the treatment area can be
+                          seen following the first few treatments – with
+                          the skin’s surface feeling smoother and softer
+                          immediately.
+                        </p>
+                      </CardBody>
+                    </Card>
+                  </UncontrolledCollapse>
+                </div>
+                <div>
+                  <Button color="light" id="toggler4" style={{ marginBottom: '1rem' }}>
+                    WHAT KIND OF POST PROCEDURE CARE IS REQUIRED?
+                  </Button>
+                  <UncontrolledCollapse toggler="#toggler4">
+                    <Card>
+                      <CardBody>
+                        <p>
+                          There is absolutely no downtime for BodyFX.
+                          It can be a lunch time procedure. Patients
+                          will notice redness and warmth in the treated
+                          area which will subside after a few hours. This
+                          warmth is equivalent to the sensation felt after
+                          a deep tissue massage and will not prevent
+                          anyone from their regular activities.
+                        </p>
                       </CardBody>
                     </Card>
                   </UncontrolledCollapse>

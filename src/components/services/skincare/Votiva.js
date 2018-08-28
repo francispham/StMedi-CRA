@@ -28,7 +28,10 @@ class Votiva extends Component {
   render () {
     return (
       <div className="Votiva middle flex-column" style={{paddingTop:"10em"}}>
-        <h4 className="display-4">Votiva</h4>
+        <h4 className="display-4">VOTIVA</h4>
+        <h5 className="display-5">
+          A SAFE AND EFFECTIVE TREATMENT FOR FEMININE HEALTH & SEXUAL DYSFUNCTION
+        </h5>
         <div className="container-fluid">
           <Container fluid style={{ paddingTop: "2em" }} >
             <Row>
@@ -78,7 +81,7 @@ class Votiva extends Component {
                 <div>
                   <FontAwesomeIcon icon="user-clock" /> &nbsp;
                   <strong>Treatment Time</strong>
-                  <p>&nbsp;&nbsp;&nbsp;<small> ~40 minutes</small></p>
+                  <p><small> ~40 minutes</small></p>
                 </div>
               </Col>
               <Col style={{
@@ -87,7 +90,7 @@ class Votiva extends Component {
                 <div>
                   <FontAwesomeIcon icon="home" /> &nbsp;
                   <strong>DownTime</strong>
-                  <p>&nbsp;&nbsp;&nbsp;<small>Little</small></p>
+                  <p><small>Little</small></p>
                 </div>
               </Col>
               <Col style={{
@@ -96,7 +99,7 @@ class Votiva extends Component {
                 <div>
                   <FontAwesomeIcon icon="calendar" /> &nbsp;
                   <strong>Sessions Required</strong>
-                  <p>&nbsp;&nbsp;&nbsp;<small>2 - 3</small></p>
+                  <p><small>2 - 3</small></p>
                 </div>
               </Col>
               <Col style={{
@@ -105,7 +108,7 @@ class Votiva extends Component {
               <div>
                 <FontAwesomeIcon icon="meh" /> &nbsp;
                 <strong>Discomfort Level</strong>
-                <p>&nbsp;&nbsp;&nbsp;<small>Slight</small></p>
+                <p><small>Slight</small></p>
               </div>
             </Col>
             </Row>

@@ -28,7 +28,11 @@ class FormaPlus extends Component {
   render () {
     return (
       <div className="FormaPlus middle flex-column" style={{paddingTop:"10em"}}>
-        <h4 className="display-4">Forma Plus</h4>
+        <h4 className="display-4">FORMA PLUS</h4>
+        <h5 className="display-5">
+          A SAFE AND COMFORTABLE NON-SURGICAL SOLUTION TO REFINE AND REVERSE
+          SKIN LAXITY.
+        </h5>
         <div className="container-fluid">
           <Container fluid style={{ paddingTop: "2em" }} >
             <Row>
@@ -38,24 +42,30 @@ class FormaPlus extends Component {
               </Col>
               <Col sm={12} md={6} style={{ padding:"0px" }}>
                 <p>
-                  Starting with healthy teeth and gums, we can perfect your smile
-                  through our Organic Teeth whitening treatment with zero peroxide.
-                  One of the first things people notice is your smile. A beautiful
-                  smile can brighten your life every day, professionally and socially.
-                  And unlike plastic surgery, cosmetic dentistry isn't a major operation.
-                  Imagine coming in for a single appointment or two and emerging
-                  with the smile you've always wanted...no pain, no time taken away
-                  from your busy life. The results are immediate and dramatic.
+                  Plus uses fractionated radio-frequency
+                  energy to stimulate collagen production for
+                  body remodeling. After Plus treatments you
+                  can achieve a more youthful and
+                  toned skin contour making your body
+                  appear smoother, sexier and younger.
                 </p>
                 <p>
-                  There are many ways we can give you a youthful, attractive,
-                  natural looking smile! If you feel that chipped, stained, or
-                  crooked teeth are "hiding" the real you, then smile design might
-                  be something that you would like to consider. You can feel relax
-                  and get excellent service, we know that going to the dentist
-                  can be expensive and scary for some people, so we have include
-                  friendly and attentive stuff to cater to your needs once you step
-                  into.
+                  Plus is recommended for individuals who are
+                  looking for a non-invasive skin treatment
+                  to address targeted areas that require
+                  contraction. Plus can be used to reduce
+                  texture irregularities in lax skin to provide a
+                  lifted appearance. Plus is safe and can be used
+                  on all skin types and tones.
+                </p>
+                <p>
+                  During treatment most patients will feel a
+                  heat sensation and “feel” tighter. Over time
+                  patients typically notice a reduction in the
+                  folds of their skin leading to a smoother
+                  contour of the body. Textural irregularities will
+                  even out and sagging skin will appear more
+                  toned.
                 </p>
                 <br/>
                 <p>Contact us to schedule your appointment today! </p>
@@ -75,7 +85,7 @@ class FormaPlus extends Component {
                 <div>
                   <FontAwesomeIcon icon="user-clock" /> &nbsp;
                   <strong>Treatment Time</strong>
-                  <p>&nbsp;&nbsp;&nbsp;<small> ~40 minutes</small></p>
+                  <p><small>???????</small></p>
                 </div>
               </Col>
               <Col style={{
@@ -84,7 +94,7 @@ class FormaPlus extends Component {
                 <div>
                   <FontAwesomeIcon icon="home" /> &nbsp;
                   <strong>DownTime</strong>
-                  <p>&nbsp;&nbsp;&nbsp;<small>None</small></p>
+                  <p><small>None</small></p>
                 </div>
               </Col>
               <Col style={{
@@ -93,7 +103,7 @@ class FormaPlus extends Component {
                 <div>
                   <FontAwesomeIcon icon="calendar" /> &nbsp;
                   <strong>Sessions Required</strong>
-                  <p>&nbsp;&nbsp;&nbsp;<small>1 or more</small></p>
+                  <p><small>6 - 8</small></p>
                 </div>
               </Col>
               <Col style={{
@@ -102,7 +112,7 @@ class FormaPlus extends Component {
               <div>
                 <FontAwesomeIcon icon="meh" /> &nbsp;
                 <strong>Discomfort Level</strong>
-                <p>&nbsp;&nbsp;&nbsp;<small>None</small></p>
+                <p><small>None</small></p>
               </div>
             </Col>
             </Row>
@@ -116,37 +126,77 @@ class FormaPlus extends Component {
                 <h4>FAQ</h4>
               </Col>
               <Col className="middle" sm={12} md={6} style={{ padding:"0px" }}>
-                <h4>Before & After</h4>
+                <h4>BEFORE & AFTER</h4>
               </Col>
             </Row>
             <Row>
               <Col>
                 <div>
                   <Button color="light" id="toggler" style={{ marginBottom: '1rem' }}>
-                    Why do I need to have my teeth white?
+                    HOW DOES PLUS WORK?
                   </Button>
                   <UncontrolledCollapse toggler="#toggler">
                     <Card>
                       <CardBody>
-                        Anim pariatur cliche reprehenderit,
-                        enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                        anim keffiyeh helvetica, craft beer labore wes anderson cred
-                        nesciunt sapiente ea proident.
+                        Plus was created and based on the
+                        development and clinical success of the
+                        proprietary A.C.E. (Acquire, Control and
+                        Extend) technology. A.C.E. technology
+                        targets deep within the skin to ensure that
+                        no areas are under, or over-treated, thereby
+                        maximizing results and providing consistent outcomes.
                       </CardBody>
                     </Card>
                   </UncontrolledCollapse>
                 </div>
                 <div>
                   <Button color="light" id="toggler1" style={{ marginBottom: '1rem' }}>
-                    When do I need to have my teeth white?
+                    WHAT AREAS CAN BE TREATED?
                   </Button>
                   <UncontrolledCollapse toggler="#toggler1">
                     <Card>
                       <CardBody>
-                        Anim pariatur cliche reprehenderit,
-                        enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                        anim keffiyeh helvetica, craft beer labore wes anderson cred
-                        nesciunt sapiente ea proident.
+                        Plus can be used on parts of the body that
+                        may need contraction after the effects of
+                        weight gain/loss or general aging. Most common
+                        areas of treatment include the abdomen,
+                        arms (bat wings), inner thighs, outer thighs,
+                        back fat and knees.
+                      </CardBody>
+                    </Card>
+                  </UncontrolledCollapse>
+                </div>
+                <div>
+                  <Button color="light" id="toggler2" style={{ marginBottom: '1rem' }}>
+                    WILL IT HURT
+                  </Button>
+                  <UncontrolledCollapse toggler="#toggler2">
+                    <Card>
+                      <CardBody>
+                        Plus is essentially painless and has no
+                        downtime; it feels like a hot stone massage.
+                        Patients may see slight redness in the treated
+                        area, which will lessen within a few hours.
+                        All patients are able to return to their daily
+                        activities immediately after treatment.
+                      </CardBody>
+                    </Card>
+                  </UncontrolledCollapse>
+                </div>
+                <div>
+                  <Button color="light" id="toggler3" style={{ marginBottom: '1rem' }}>
+                    HOW MANY SESSIONS ARE REQUIRED?
+                  </Button>
+                  <UncontrolledCollapse toggler="#toggler3">
+                    <Card>
+                      <CardBody>
+                        Typically, weekly sessions are recommended
+                        over a six to eight week period. Individuals
+                        with mild laxity may be treated in fewer
+                        sessions with more weeks between each
+                        treatment. Scheduling should be based on a
+                        pre-evaluation. Best results will be noticed
+                        over time or after a series of treatments.
                       </CardBody>
                     </Card>
                   </UncontrolledCollapse>

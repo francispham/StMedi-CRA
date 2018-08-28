@@ -84,7 +84,7 @@ class HomePage extends React.Component {
                 padding: "0px"
               }} sm={6} md={3}>
               <div id="fade">
-                <strong>ORGANIC TEETH WHITENING</strong>
+                <strong>TEETH WHITENING</strong>
               </div>
             </Col>
             <Col style={{
