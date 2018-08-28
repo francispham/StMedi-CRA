@@ -38,24 +38,27 @@ class Votiva extends Component {
               </Col>
               <Col sm={12} md={6} style={{ padding:"0px" }}>
                 <p>
-                  Starting with healthy teeth and gums, we can perfect your smile
-                  through our Organic Teeth whitening treatment with zero peroxide.
-                  One of the first things people notice is your smile. A beautiful
-                  smile can brighten your life every day, professionally and socially.
-                  And unlike plastic surgery, cosmetic dentistry isn't a major operation.
-                  Imagine coming in for a single appointment or two and emerging
-                  with the smile you've always wanted...no pain, no time taken away
-                  from your busy life. The results are immediate and dramatic.
+                  Previously, women did not have many options to improve intimate
+                  issues that occur from childbirth or aging. Now, with new
+                  technologies available, women have more options to resolve their
+                  discomfort. There are new choices that are effective, easy and painless.
+                  The time has come for a safe and effective treatment that is
+                  quick and comfortable. Votiva offers solutions that address
+                  internal and external vaginal health concerns, with clinically
+                  proven feminine wellness technologies.
                 </p>
+
+                <p><strong>COMMON FEMININE HEALTH CONCERNS:</strong></p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;• Laxity and wrinkled appearance of the labia and vulva</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;• Low blood flow and sensitivity</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;• Pain sensation caused by labial hypertrophy</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;• Level of sexual interest and self-esteem</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;• Weakening of the vaginal muscles</p>
+                <p><strong>WHAT IS VOTIVA?</strong></p>
                 <p>
-                  There are many ways we can give you a youthful, attractive,
-                  natural looking smile! If you feel that chipped, stained, or
-                  crooked teeth are "hiding" the real you, then smile design might
-                  be something that you would like to consider. You can feel relax
-                  and get excellent service, we know that going to the dentist
-                  can be expensive and scary for some people, so we have include
-                  friendly and attentive stuff to cater to your needs once you step
-                  into.
+                  InMode’s Votiva system is a safe, effective treatment for feminine
+                  health that offers immediate results with continued
+                  improvements over time.
                 </p>
                 <br/>
                 <p>Contact us to schedule your appointment today! </p>
@@ -84,7 +87,7 @@ class Votiva extends Component {
                 <div>
                   <FontAwesomeIcon icon="home" /> &nbsp;
                   <strong>DownTime</strong>
-                  <p>&nbsp;&nbsp;&nbsp;<small>None</small></p>
+                  <p>&nbsp;&nbsp;&nbsp;<small>Little</small></p>
                 </div>
               </Col>
               <Col style={{
@@ -93,7 +96,7 @@ class Votiva extends Component {
                 <div>
                   <FontAwesomeIcon icon="calendar" /> &nbsp;
                   <strong>Sessions Required</strong>
-                  <p>&nbsp;&nbsp;&nbsp;<small>1 or more</small></p>
+                  <p>&nbsp;&nbsp;&nbsp;<small>2 - 3</small></p>
                 </div>
               </Col>
               <Col style={{
@@ -102,7 +105,7 @@ class Votiva extends Component {
               <div>
                 <FontAwesomeIcon icon="meh" /> &nbsp;
                 <strong>Discomfort Level</strong>
-                <p>&nbsp;&nbsp;&nbsp;<small>None</small></p>
+                <p>&nbsp;&nbsp;&nbsp;<small>Slight</small></p>
               </div>
             </Col>
             </Row>
@@ -116,37 +119,89 @@ class Votiva extends Component {
                 <h4>FAQ</h4>
               </Col>
               <Col className="middle" sm={12} md={6} style={{ padding:"0px" }}>
-                <h4>Before & After</h4>
+                <h4>BEFORE & AFTER</h4>
               </Col>
             </Row>
             <Row>
-              <Col>
+              <Col className="FAQ">
+                <div>
+                  <Button color="light" id="toggler0" style={{ marginBottom: '1rem' }}>
+                    HOW DOES VOTIVA WORK?
+                  </Button>
+                  <UncontrolledCollapse toggler="#toggler0">
+                    <Card>
+                      <CardBody>
+                        <p>
+                          Votiva uses up to two complimentary
+                          technologies to address the internal and
+                          external areas of discomfort or concern.
+                        </p>
+                        <p>
+                          • <strong>FormaV</strong> – Gentle thermal tissue remodeling
+                        </p>
+                        <p>
+                          • <strong>FractoraV</strong> – Fractional radio-frequencycontraction
+                        </p>
+                        <p>
+                          During a pre-consultation, your physician will
+                          speak to you regarding your concerns and
+                          expectations. At this time, they will develop
+                          a tailored treatment plan that can include
+                          either internal or external treatment, or both.
+                        </p>
+                      </CardBody>
+                    </Card>
+                  </UncontrolledCollapse>
+                </div>
                 <div>
                   <Button color="light" id="toggler" style={{ marginBottom: '1rem' }}>
-                    Why do I need to have my teeth white?
+                    WHAT CAN I EXPECT?
                   </Button>
                   <UncontrolledCollapse toggler="#toggler">
                     <Card>
                       <CardBody>
-                        Anim pariatur cliche reprehenderit,
-                        enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                        anim keffiyeh helvetica, craft beer labore wes anderson cred
-                        nesciunt sapiente ea proident.
+                        Patients can expect to feel a heating
+                        sensation during treatment. Results can be
+                        felt and seen immediately, with continued
+                        results over the following weeks or multiple
+                        treatments.
                       </CardBody>
                     </Card>
                   </UncontrolledCollapse>
                 </div>
                 <div>
                   <Button color="light" id="toggler1" style={{ marginBottom: '1rem' }}>
-                    When do I need to have my teeth white?
+                    WHAT IS THE DOWNTIME?
                   </Button>
                   <UncontrolledCollapse toggler="#toggler1">
                     <Card>
                       <CardBody>
-                        Anim pariatur cliche reprehenderit,
-                        enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                        anim keffiyeh helvetica, craft beer labore wes anderson cred
-                        nesciunt sapiente ea proident.
+                        Depending on the intensity of the
+                        treatment, there is little to no downtime.
+                        Most patients may have slight discomfort
+                        during and immediately after treatment.
+                        Some patients will experience no discomfort
+                        at all.
+                      </CardBody>
+                    </Card>
+                  </UncontrolledCollapse>
+                </div>
+                <div>
+                  <Button color="light" id="toggler2" style={{ marginBottom: '1rem' }}>
+                    HOW MANY SESSIONS ARE REQUIRED?
+                  </Button>
+                  <UncontrolledCollapse toggler="#toggler2">
+                    <Card>
+                      <CardBody>
+                        Your physician will determine the best
+                        treatment plan for you. The majority of
+                        patients have 2-3 sessions, however, most
+                        notice a difference after only 1 treatment.
+                        The number of sessions depends on your
+                        treatment concerns, your personal goals, and
+                        if you plan to use a combination treatment or
+                        a single treatment approach.
+                        at all.
                       </CardBody>
                     </Card>
                   </UncontrolledCollapse>
