@@ -12,7 +12,7 @@ section {
 }
 
 a {
-  color: #BB972E;
+  color: #BB972E !important;
 }
 
 main {

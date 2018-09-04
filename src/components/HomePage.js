@@ -2,6 +2,7 @@ import React from 'react';
 import {
   Jumbotron, Button, Container, Row, Col
  } from 'reactstrap';
+ import { NavLink } from 'react-router-dom'
 
 import Landing from '../images/Landing1.jpg'
 
@@ -20,10 +21,11 @@ class HomePage extends React.Component {
             }}/>
         </p>
         <p>
-          <Button size="lg" style={{
-              opacity: ".3",
-              borderRadius: "0"
-            }}>Learn More</Button>
+          <NavLink to="/skincare">
+            <Button size="lg" style={{opacity: ".3", borderRadius: "0"}}>
+              Learn More
+            </Button>
+          </NavLink>
         </p>
       </Jumbotron>
 

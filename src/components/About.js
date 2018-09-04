@@ -4,9 +4,9 @@ import { NavLink, Container, Row, Col } from 'reactstrap';
 class About extends Component {
   render () {
     return (
-      <div className="About container-fluid flex-column" style={{paddingTop:"10em"}}>
+      <div className="About container-fluid middle flex-column" style={{paddingTop:"10em"}}>
+        <h3 className="display-3">ABOUT STMEDI</h3>
         <Container fluid>
-          <h3 className="display-3">About St MEDI</h3>
           <Row>
             <Col className="image">
               <img src={require('../images/about.jpg')} style={{
