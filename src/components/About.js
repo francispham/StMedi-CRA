@@ -17,7 +17,7 @@ class About extends Component {
             </Col>
             <Col style={{
               padding:"2em",
-              marginTop:"5em"
+              marginTop:"2em"
             }}>
               <p>
                 ST MEDI is a new special medical style skin and teeth care center

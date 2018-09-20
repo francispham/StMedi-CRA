@@ -47,15 +47,17 @@ class Footer extends Component {
             © 2018  |  PRIVACY POLICY
           </h4>
         </div>
-
-        <div className="display-4 middle flex-column" style={{ height: "50%" }}>
-          <div>Google Map</div>
-          <div className="color">
+        <div className="display-4 middle flex-column" style={{ height: "50%", paddingTop:"100px" }}>
+          {/* <div>Google Map</div>
+            <div className="color">
             <FontAwesomeIcon icon="check-square" />
             Favorite beverage: <FontAwesomeIcon icon="coffee" transform={{ rotate: 42 }}/>
-          </div>
-
+          </div> */}
+          <img src={require('../images/google.png')} style={{
+            width: "100%"
+          }}/>
         </div>
+
     </div>)
   }
 };
