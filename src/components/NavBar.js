@@ -85,10 +85,10 @@ class NavBar extends React.Component {
                    <NavLink activeClassName="active" tag={RRNavLink} to="/LatestNews">LASTEST NEWS</NavLink>
                  </NavItem>
                  <NavItem>
-                   <NavLink activeClassName="active" tag={RRNavLink} to="/About/">ABOUT US</NavLink>
+                   <NavLink activeClassName="active" tag={RRNavLink} to="/About">ABOUT US</NavLink>
                  </NavItem>
                  <NavItem>
-                   <NavLink activeClassName="active" tag={RRNavLink} to="/FindUs/">FIND US</NavLink>
+                   <NavLink activeClassName="active" tag={RRNavLink} to="/FindUs">FIND US</NavLink>
                  </NavItem>
                </Nav>
              </Collapse>

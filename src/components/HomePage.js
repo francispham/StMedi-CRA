@@ -68,32 +68,40 @@ class HomePage extends React.Component {
             paddingTop: "1em"
           }}>
           <Row>
+
             <Col style={{
                 padding: "0px"
               }} sm={6} md={3}>
-              <div id="fade">
-                <strong>SKIN CARE</strong>
-              </div>
+              <NavLink to="/skincare">
+                <div id="fade">
+                  <strong>SKIN CARE</strong>
+                </div>
+              </NavLink>
+            </Col>
+
+            <Col style={{
+                padding: "0px"
+              }} sm={6} md={3}>
+              <NavLink to="/LaserHairRemoval">
+                <div id="fade">
+                  <strong>LASER HAIR REMOVAL</strong>
+                </div>
+            </NavLink>
             </Col>
             <Col style={{
                 padding: "0px"
               }} sm={6} md={3}>
-              <div id="fade">
-                <strong>LASER HAIR REMOVAL</strong>
-              </div>
-            </Col>
-            <Col style={{
-                padding: "0px"
-              }} sm={6} md={3}>
-              <div id="fade">
-                <strong>TEETH WHITENING</strong>
-              </div>
+              <NavLink to="/OrganicTeethWhitening">
+                <div id="fade">
+                  <strong>TEETH WHITENING</strong>
+                </div>
+              </NavLink>
             </Col>
             <Col style={{
               padding: "0px"
             }} sm={6} md={3}>
             <div id="fade">
-              <strong>MANICURE</strong>
+                <strong>MANICURE</strong>
             </div>
           </Col>
           </Row>
@@ -108,10 +116,11 @@ class HomePage extends React.Component {
             <Col style={{
                 padding: "0px"
               }} sm={6} md={3}>
-              <div id="fade">
-                <strong>NEW SERVICES
-                </strong>
-              </div>
+              <NavLink to="/NewAndHotServices">
+                <div id="fade">
+                  <strong>NEW SERVICES</strong>
+                </div>
+              </NavLink>
             </Col>
             <Col style={{
                 padding: "0px"
@@ -123,16 +132,20 @@ class HomePage extends React.Component {
             <Col style={{
                 padding: "0px"
               }} sm={6} md={3}>
-              <div id="fade">
-                <strong>WHO WE ARE</strong>
-              </div>
+              <NavLink to="/About">
+                <div id="fade">
+                  <strong>WHO WE ARE</strong>
+                </div>
+              </NavLink>
             </Col>
             <Col style={{
                 padding: "0px"
               }} sm={6} md={3}>
-              <div id="fade">
-                <strong>NEWS & EVENT</strong>
-              </div>
+              <NavLink to="/LatestNews">
+                <div id="fade">
+                  <strong>NEWS & EVENTS</strong>
+                </div>
+              </NavLink>
             </Col>
           </Row>
         </Container>
