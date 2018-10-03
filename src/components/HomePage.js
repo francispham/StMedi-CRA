@@ -41,25 +41,30 @@ class HomePage extends React.Component {
               <Col style={{
                   padding: "0px"
                 }} sm={12} md={6}>
-                <div id="fade">
-                  <strong>CONTOURING & CELLULITE TREATMENT</strong>
-                </div>
+                <NavLink to="/Fractora">
+                  <div id="fade">
+                    <strong>CONTOURING & CELLULITE TREATMENT</strong>
+                  </div>
+                </NavLink>
               </Col>
               <Col style={{
                   padding: "0px"
                 }} sm={12} md={6}>
-                <div id="fade">
-                  <strong>VOTIVA</strong>
-                </div>
+                <NavLink to="/Votiva">
+                  <div id="fade">
+                    <strong>VOTIVA</strong>
+                  </div>
+                </NavLink>
               </Col>
             </Row>
           </Container>
         </div>
         <p>
-          <Button size="lg" style={{
-              opacity: ".3",
-              borderRadius: "0"
-            }}>Learn More</Button>
+          <NavLink to="/skincare">
+            <Button size="lg" style={{opacity: ".3", borderRadius: "0"}}>
+              Learn More
+            </Button>
+          </NavLink>
         </p>
       </Jumbotron>
 
