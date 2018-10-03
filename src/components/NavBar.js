@@ -70,6 +70,9 @@ class NavBar extends React.Component {
                        <NavLink activeClassName="active" tag={RRNavLink} to="/Skincare">SKINCARE</NavLink>
                      </DropdownItem>
                      <DropdownItem>
+                       <NavLink activeClassName="active" tag={RRNavLink} to="/Manicure">MANICURE</NavLink>
+                     </DropdownItem>
+                     <DropdownItem>
                        <NavLink activeClassName="active" tag={RRNavLink} to="/LaserHairRemoval">PERMANENT LASER HAIR REMOVAL</NavLink>
                      </DropdownItem>
                      <DropdownItem>

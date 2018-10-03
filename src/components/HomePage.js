@@ -100,9 +100,11 @@ class HomePage extends React.Component {
             <Col style={{
               padding: "0px"
             }} sm={6} md={3}>
+            <NavLink to="/Manicure">
             <div id="fade">
                 <strong>MANICURE</strong>
-            </div>
+              </div>
+            </NavLink>
           </Col>
           </Row>
         </Container>
@@ -125,9 +127,11 @@ class HomePage extends React.Component {
             <Col style={{
                 padding: "0px"
               }} sm={6} md={3}>
-              <div id="fade">
-                <strong>USEFUL INFO</strong>
-              </div>
+              <NavLink to="/FindUs">
+                <div id="fade">
+                  <strong>USEFUL INFO</strong>
+                </div>
+              </NavLink>
             </Col>
             <Col style={{
                 padding: "0px"

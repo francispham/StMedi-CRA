@@ -16,6 +16,7 @@ import { NewHot } from "./services/NewHot";
 import { LatestNews } from "./LatestNews";
 import { Footer } from "./Footer";
 import { Skincare } from "./services/Skincare";
+import { Manicure } from "./services/Manicure";
 
 import { BodyFX } from "./services/skincare/BodyFX";
 import { FormaPlus } from "./services/skincare/FormaPlus";
@@ -47,17 +48,18 @@ class App extends Component {
 
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route exact path="/Skincare" component={Skincare} />
-          <Route exact path="/LaserHairRemoval" component={Laser} />
-          <Route exact path="/OrganicTeethWhitening" component={TeethCare} />
-          <Route exact path="/BodyFX" component={BodyFX} />
-          <Route exact path="/FormaPlus" component={FormaPlus} />
-          <Route exact path="/Fractora" component={Fractora} />
-          <Route exact path="/Votiva" component={Votiva} />
-          <Route exact path="/NewAndHotServices" component={NewHot} />
-          <Route exact path="/LatestNews" component={LatestNews} />
-          <Route exact path="/About" component={About} />
-          <Route exact path="/FindUs" component={FindUs} />
+          <Route  path="/Skincare" component={Skincare} />
+          <Route  path="/Manicure" component={Manicure} />
+          <Route  path="/LaserHairRemoval" component={Laser} />
+          <Route  path="/OrganicTeethWhitening" component={TeethCare} />
+          <Route  path="/BodyFX" component={BodyFX} />
+          <Route  path="/FormaPlus" component={FormaPlus} />
+          <Route  path="/Fractora" component={Fractora} />
+          <Route  path="/Votiva" component={Votiva} />
+          <Route  path="/NewAndHotServices" component={NewHot} />
+          <Route  path="/LatestNews" component={LatestNews} />
+          <Route  path="/About" component={About} />
+          <Route  path="/FindUs" component={FindUs} />
           <Route component={NotFoundPage} />
         </Switch>
 
