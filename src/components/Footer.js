@@ -6,7 +6,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="Footer" style={{
-        height: "100vh",
+        height: "50vh",
         paddingTop: "40px"
       }}>
         <div className="middle flex-column" style={{ height: "25%" }}>
@@ -47,17 +47,11 @@ class Footer extends Component {
             © 2018  |  PRIVACY POLICY
           </h4>
         </div>
-        <div className="display-4 middle flex-column" style={{ height: "50%", paddingTop:"100px" }}>
-          {/* <div>Google Map</div>
-            <div className="color">
-            <FontAwesomeIcon icon="check-square" />
-            Favorite beverage: <FontAwesomeIcon icon="coffee" transform={{ rotate: 42 }}/>
-          </div> */}
+        <div className="display-4 middle flex-column" style={{ height: "90vh", paddingTop:"100px" }}>
           <img src={require('../images/google.png')} style={{
             width: "100%"
           }}/>
         </div>
-
     </div>)
   }
 };
