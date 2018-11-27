@@ -28,7 +28,7 @@ window.onscroll = () => {
     document.querySelector("nav").classList.remove('scrolled');
   }
   prevScrollpos = currentScrollPos;
-}
+};
 
 
 
@@ -61,6 +61,7 @@ class NavBar extends React.Component {
                  <NavItem>
                    <NavLink activeClassName="active" tag={RRNavLink} to="/">HOME</NavLink>
                  </NavItem>
+
                  <UncontrolledDropdown nav inNavbar>
                    <DropdownToggle nav caret>
                        SERVICES
@@ -84,6 +85,7 @@ class NavBar extends React.Component {
                     </DropdownItem>
                    </DropdownMenu>
                  </UncontrolledDropdown>
+                 
                  <NavItem>
                    <NavLink activeClassName="active" tag={RRNavLink} to="/LatestNews">LASTEST NEWS</NavLink>
                  </NavItem>

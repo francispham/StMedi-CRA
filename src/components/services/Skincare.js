@@ -3,7 +3,7 @@ import {
   Container, Row, Col, Card, CardImg, CardText, CardBody, CardTitle,
   // CardSubtitle, Button
 } from 'reactstrap';
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 
 
 class Skincare extends Component {
@@ -190,7 +190,7 @@ class Skincare extends Component {
           </div>
         </section>
       </div>
-    )
+    );
   }
 }
 

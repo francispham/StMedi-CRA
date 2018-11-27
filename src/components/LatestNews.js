@@ -11,7 +11,7 @@ class LatestNews extends Component {
             }} alt=""/>
           </span>
       </div>
-    )
+    );
   }
 }
 

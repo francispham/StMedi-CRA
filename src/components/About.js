@@ -55,7 +55,7 @@ class About extends Component {
         <hr/>
         <NavLink className="d-flex justify-content-end" href="/app"><small>Employee Login</small></NavLink>
       </div>
-    )
+    );
   }
 }
 

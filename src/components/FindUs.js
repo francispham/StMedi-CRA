@@ -46,7 +46,7 @@ class FindUs extends Component {
           </Container>
         </section>
       </div>
-    )
+    );
   }
 }
 

@@ -3,7 +3,7 @@ import {
   Container, Row, Col, Card, CardImg, CardText, CardBody, CardTitle,
   // CardSubtitle, Button
 } from 'reactstrap';
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 
 
 class Manicure extends Component {
@@ -28,6 +28,7 @@ class Manicure extends Component {
               available for personal consultation upon request.
             </p>
           </div>
+          
           <Container fluid id="manicure" style={{
               paddingTop: "1em"
             }}>
@@ -177,12 +178,11 @@ class Manicure extends Component {
               </Col>
             </Row>
           </Container>
+          
           <div style={{padding: "3em"}}>
-            <p>
-              Adore the skin you’re in! At ST Medi Spa we’re professionals and can
-              help you to choose the right skin care treatments and products for your
-              individual needs. Photo-facials, chemical peels, facials and the right
-              skin care products can help you to keep your skin looking its best.
+            <p className="middle">
+              Adore the nails you have! At ST Medi we’re professionals and can
+              help you to choose the right nails
             </p>
             <p className="middle">
               To book your free consultation, contact us by phone or email.
@@ -190,7 +190,7 @@ class Manicure extends Component {
           </div>
         </section>
       </div>
-    )
+    );
   }
 }
 

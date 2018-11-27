@@ -52,7 +52,7 @@ class Footer extends Component {
             width: "100%"
           }} alt=""/>
         </div>
-    </div>)
+    </div>);
   }
 };
 
