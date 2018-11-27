@@ -24,7 +24,7 @@ import { Fractora } from "./services/skincare/Fractora";
 import { Votiva } from "./services/skincare/Votiva";
 
 import fontawesome from '@fortawesome/fontawesome';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+// import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import brands from '@fortawesome/fontawesome-free-brands';
 import faCheckSquare from '@fortawesome/fontawesome-free-solid/faCheckSquare';
 import faCoffee from '@fortawesome/fontawesome-free-solid/faCoffee';
@@ -37,7 +37,7 @@ import faMeh from '@fortawesome/fontawesome-free-solid/faMeh';
 fontawesome.library.add(
   brands, faCheckSquare, faCoffee, faEnvelope, faUserClock, faHome,
   faCalendar, faMeh
-)
+);
 
 class App extends Component {
   render() {
@@ -66,7 +66,7 @@ class App extends Component {
         <Footer/>
       </div>
     </Router>
-  )}
+  );}
 }
 
 export default App;

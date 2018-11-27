@@ -8,7 +8,7 @@ class LatestNews extends Component {
           <span className="">
             <img src={require('../images/LatestNews.jpg')} style={{
               width: "100vh"
-            }}/>
+            }} alt=""/>
           </span>
       </div>
     )

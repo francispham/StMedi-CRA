@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import { Container, Row, Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 
 class Footer extends Component {
@@ -17,16 +17,16 @@ class Footer extends Component {
         <div className="container-fluid">
           <Row className="">
             <Col className="HorLogo middle">
-                <img src={require('../images/LogoHorizantal.png')} style={{
+                <img src={require('../images/LogoHorizantal.png')} alt="" style={{
                   width: "35vh"
                 }}/>
             </Col>
 
             <Col className="Social display-4 middle color">
-              <a target = "_blank" href = 'https://www.facebook.com/STMEDISPA/'>
+              <a target = "_blank" href = 'https://www.facebook.com/STMEDISPA/' rel="noopener noreferrer">
                 <FontAwesomeIcon icon={['fab', 'facebook']} pull="right" href="www.facebook.com"/>
               </a>
-              <a target = "_blank" href = 'https://www.instagram.com/stmedispa/'>
+              <a target = "_blank" href = 'https://www.instagram.com/stmedispa/' rel="noopener noreferrer">
                 <FontAwesomeIcon icon={['fab', 'instagram']} pull="right"/>
               </a>
                 <FontAwesomeIcon icon={['fab', 'google']} pull="right"/>
@@ -50,7 +50,7 @@ class Footer extends Component {
         <div className="display-4 middle flex-column" style={{ height: "90vh", paddingTop:"100px" }}>
           <img src={require('../images/google.png')} style={{
             width: "100%"
-          }}/>
+          }} alt=""/>
         </div>
     </div>)
   }

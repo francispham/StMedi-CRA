@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import {
   Container, Row, Col, UncontrolledCollapse, Button, CardBody, Card,
-  TabContent, TabPane, Nav, NavItem, NavLink, CardTitle, CardText
+  TabContent, TabPane, Nav, NavItem, NavLink, 
+  // CardTitle, CardText
 } from 'reactstrap';
 import classnames from 'classnames';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
@@ -37,7 +38,7 @@ class BodyFX extends Component {
             <Row>
               <Col className="middle" sm={12} md={6} style={{ padding:"0px" }}>
                 <img src={require('../../../images/TeethCare.png')}
-                    style={{ width: "50%" }}/>
+                    style={{ width: "50%" }} alt=""/>
               </Col>
               <Col sm={12} md={6} style={{ padding:"0px" }}>
                 <p>
@@ -261,7 +262,7 @@ class BodyFX extends Component {
                             <Col sm="12">
                               <p>
                                 <img src={require('../../../images/TeethAlvin.jpg')}
-                                    style={{ width: "100%" }}/>
+                                    style={{ width: "100%" }} alt=""/>
                               </p>
                             </Col>
                           </Row>
@@ -271,7 +272,7 @@ class BodyFX extends Component {
                             <Col sm="12">
                               <p>
                                 <img src={require('../../../images/TeethMina.jpg')}
-                                    style={{ width: "100%" }}/>
+                                    style={{ width: "100%" }} alt=""/>
                               </p>
                             </Col>
                           </Row>
@@ -281,7 +282,7 @@ class BodyFX extends Component {
                             <Col sm="12">
                               <p>
                                 <img src={require('../../../images/TeethKarim.jpg')}
-                                    style={{ width: "100%" }}/>
+                                    style={{ width: "100%" }} alt=""/>
                               </p>
                             </Col>
                           </Row>
@@ -293,7 +294,7 @@ class BodyFX extends Component {
           </Container>
         </div>
       </div>
-    )
+    );
   }
 }
 

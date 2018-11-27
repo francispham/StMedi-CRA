@@ -16,7 +16,7 @@ class HomePage extends React.Component {
     return (<div>
       <Jumbotron id="Home" className="middle flex-column HomePage" fluid style={jumStyle}>
         <p className="lead">
-          <img src={require('../images/logo.png')} style={{
+          <img src={require('../images/logo.png')} alt="home" style={{
               height: "50vh"
             }}/>
         </p>

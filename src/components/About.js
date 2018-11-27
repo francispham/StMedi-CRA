@@ -9,7 +9,7 @@ class About extends Component {
         <Container fluid>
           <Row>
             <Col className="image">
-              <img src={require('../images/about.jpg')} style={{
+              <img src={require('../images/about.jpg')} alt="about" style={{
                 width: "100%",
                 marginRight: "1em",
                 padding:"2em"

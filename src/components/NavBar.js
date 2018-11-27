@@ -16,7 +16,7 @@ import {
 
 
 
-let nav = document.querySelector('nav');
+// let nav = document.querySelector('nav');
 let prevScrollpos = window.pageYOffset;
 
 window.onscroll = () => {
@@ -53,7 +53,7 @@ class NavBar extends React.Component {
       <div>
            <Navbar className="fixed-top navbar-default" light expand="md">
              <NavbarBrand activeClassName="active" tag={RRNavLink} to="/">
-                <img src={require('../images/logo.png')} style={{height: "70px"}} />
+                <img src={require('../images/logo.png')} style={{height: "70px"}} alt="" />
              </NavbarBrand>
              <NavbarToggler onClick={this.toggle} />
              <Collapse isOpen={this.state.isOpen} navbar>

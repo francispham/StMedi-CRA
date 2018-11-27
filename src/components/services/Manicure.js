@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {
   Container, Row, Col, Card, CardImg, CardText, CardBody, CardTitle,
-  CardSubtitle, Button
+  // CardSubtitle, Button
 } from 'reactstrap';
 import { NavLink } from 'react-router-dom'
 
