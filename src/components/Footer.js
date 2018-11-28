@@ -1,21 +1,20 @@
 import React, {Component} from "react";
-import { Row, Col } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 
 class Footer extends Component {
   render() {
     return (
       <div className="Footer" style={{
-        height: "50vh",
-        paddingTop: "40px"
+        // height: "30vh",
+        // paddingTop: "40px"
       }}>
-        <div className="middle flex-column" style={{ height: "25%" }}>
+        <div className="middle flex-column" style={{ height: "25%", padding: "40px" }}>
           <h3>920 Seymour Street, Vancouver BC</h3>
           <h3>V6B 3L9 Canada</h3>
         </div>
-
-        <div className="container-fluid">
-          <Row className="">
+        <Container> 
+          <Row>
             <Col className="HorLogo middle">
                 <img src={require('../images/LogoHorizantal.png')} alt="" style={{
                   width: "35vh"
@@ -41,16 +40,15 @@ class Footer extends Component {
               </a>
             </Col>
           </Row>
-        </div>
-        <div className="middle" style={{paddingTop:"40px"}}>
+        </Container>
+
+        <div className="middle" style={{padding:"40px"}}>
           <h4>
             © 2018  |  PRIVACY POLICY
           </h4>
         </div>
-        <div className="display-4 middle flex-column" style={{ height: "90vh", paddingTop:"100px" }}>
-          <img src={require('../images/google.png')} style={{
-            width: "100%"
-          }} alt=""/>
+        <div className = "display-4 middle flex-column" style={{paddingTop:"30px"}}>
+          <img src={require('../images/google.png')} style={{height: "40vh", width:"90%"}} alt=""/>
         </div>
     </div>);
   }
